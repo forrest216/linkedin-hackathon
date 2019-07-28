@@ -16,11 +16,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Connect to your fellow classmates!</h1>
-        </header>
-        <main>
+      <div>
           <Switch> 
             <Route exact path='/results' render={() => 
               <ResultsPage 
@@ -37,10 +33,6 @@ class App extends Component {
             }
             />
           </Switch>
-        </main>
-        <footer>
-          <p>Built by our team!</p>
-        </footer>
       </div>
     );
   }

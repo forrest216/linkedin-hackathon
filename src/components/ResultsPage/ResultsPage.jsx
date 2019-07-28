@@ -19,7 +19,7 @@ class ResultsPage extends Component {
 
    commonClasses = (resultClasses, currClasses) => {
       let counted = currClasses.reduce((acc, ele) => {
-         if (ele in resultClasses) {
+         if (resultClasses.includes(ele)) {
             acc += 1;
          }
          return acc;
@@ -31,7 +31,7 @@ class ResultsPage extends Component {
       let userList = this.props.results.length ? this.props.results.map((result, idx) => 
       <li key={idx}>
          <img src={images[idx]} alt="Profile Pic"/>
-         <p>{result.name}{result.email}{result.major}</p>
+         <p>{result.name}</p>
          <p>This person has {this.commonClasses(result.classes, this.props.currUser.classes)} classes in common with you!</p>
       </li>
       ) : <p>NO CONNECTIONS FOUND</p>;
