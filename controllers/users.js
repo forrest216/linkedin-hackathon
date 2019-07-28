@@ -14,36 +14,29 @@ async function getUsers(req, res) {
       let class2 = req.query.class2;
       let class3 = req.query.class3;
       let class4 = req.query.class4;
+      let currUser = await User.find({ email: email });
       if (classYear) {
          if (class2 && class3 && class4) {
-            console.log("function1");
             foundUsers = await User.find({classYear: classYear, major: major, classes: { $all: [class1, class2, class3, class4] }}).limit(10);
          } else if (class2 && class3) {
-            console.log("function2");
             foundUsers = await User.find({classYear: classYear, major: major, classes: { $all: [class1, class2, class3] }}).limit(10);
          } else if (class2) {
-            console.log("function3");
             foundUsers = await User.find({classYear: classYear, major: major, classes: { $all: [class1, class2] }}).limit(10);
          } else {
-            console.log("function4");
             foundUsers = await User.find({classYear: classYear, major: major, classes: { $in: class1 }}).limit(10);
          }
       } else {
          if (class2 && class3 && class4) {
-            console.log("function1");
             foundUsers = await User.find({major: major, classes: { $all: [class1, class2, class3, class4] }}).limit(10);
          } else if (class2 && class3) {
-            console.log("function2");
             foundUsers = await User.find({major: major, classes: { $all: [class1, class2, class3] }}).limit(10);
          } else if (class2) {
-            console.log("function3");
             foundUsers = await User.find({major: major, classes: { $all: [class1, class2] }}).limit(10);
          } else {
-            console.log("function4");
             foundUsers = await User.find({major: major, classes: { $in: class1 }}).limit(10);
          }
       }
-      res.status(200).json(foundUsers);
+      res.status(200).json({currUser: currUser, foundUsers: foundUsers});
    } catch (err) {
       return res.status(400).json(err);
    }
