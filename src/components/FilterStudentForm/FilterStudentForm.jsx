@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import mahtab from '../../images/Mahtab.jpeg';
 
 class FilterStudentForm extends Component {
 
@@ -23,12 +24,16 @@ class FilterStudentForm extends Component {
 		let classYear = this.state.classYear;
 		let major = this.state.major.replace(' ', '+');
 		let email = this.state.email.replace('@', "%40");
-		let class1 = this.state.class1.replace(' ', '+')
-		let class2 = this.state.class2.replace(' ', '+')
-		let class3 = this.state.class3.replace(' ', '+')
-		let class4 = this.state.class4.replace(' ', '+')
-		let results = await fetch(`/users?email=${email}&major=${major}&classYear=${classYear}&class1=${class1}&class2=${class2}&class3=${class3}&class4=${class4}`, 
-		{method: 'GET'}).then(res => res.json());
+		let class1 = this.state.class1.replace(' ', '+');
+		let class2 = this.state.class2.replace(' ', '+');
+		let class3 = this.state.class3.replace(' ', '+');
+		let class4 = this.state.class4.replace(' ', '+');
+
+		let results = await fetch(
+			`/users?email=${email}&major=${major}&classYear=${classYear}&class1=${class1}&class2=${class2}&class3=${class3}&class4=${class4}`, 
+			{method: 'GET'})
+			.then(res => res.json());
+
 		this.props.updateResults(results);
 		this.props.history.push('/results');
 	}
@@ -40,6 +45,7 @@ class FilterStudentForm extends Component {
 	render() {
 		return (
 			<div>
+				<img src={mahtab} alt="user_pic" height='100px' width='100px'/>
 				<header>Find Students to Connect with:</header>
 				<form onSubmit={this.handleSubmit}>
 					<div>
