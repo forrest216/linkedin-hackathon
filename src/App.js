@@ -6,11 +6,12 @@ import './App.css';
 
 class App extends Component {
   state = {
-    results: []
+    results: [],
+    currUser: null
   };
 
   updateResults = (results) => {
-    this.setState({ results });
+    this.setState({ results: results.foundUsers, currUser: results.currUser });
   }
 
   render() {
@@ -21,16 +22,17 @@ class App extends Component {
         </header>
         <main>
           <Switch> 
-            <Route exact path='/' render={({ history }) => 
-              <FilterStudentForm 
-                history={history}
-                updateResults={this.updateResults}
-              />
-            }
-            />
             <Route exact path='/results' render={() => 
               <ResultsPage 
                 results={this.state.results}
+                currUser={this.state.currUser}
+              />
+            }
+            />
+            <Route path='/' render={({ history }) => 
+              <FilterStudentForm 
+                history={history}
+                updateResults={this.updateResults}
               />
             }
             />

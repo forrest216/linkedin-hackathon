@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import zero from '../../images/0.jpeg';
 import one from '../../images/1.jpeg';
 import two from '../../images/2.jpeg';
@@ -14,17 +15,36 @@ import eleven from '../../images/11.jpeg';
 
 const images = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven];
 
-const ResultsPage = (props) => {
-   let userList = props.results.length ? props.results.map((result, idx) => 
-   <li key={idx}><img src={images[idx]} alt="Profile Pic"/>{result.name}{result.email}{result.major}</li>
-   ) : <p>NO CONNECTIONS FOUND</p>;
-   return ( 
-      <>
-         <ul>
-            {userList}
-         </ul>
-      </>
-    );
+class ResultsPage extends Component {
+
+   commonClasses = (resultClasses, currClasses) => {
+      let counted = currClasses.reduce((acc, ele) => {
+         if (ele in resultClasses) {
+            acc += 1;
+         }
+         return acc;
+      }, 0 );
+      return counted;
+   }
+
+   render() {
+      let userList = this.props.results.length ? this.props.results.map((result, idx) => 
+      <li key={idx}>
+         <img src={images[idx]} alt="Profile Pic"/>
+         <p>{result.name}{result.email}{result.major}</p>
+         <p>This person has {this.commonClasses(result.classes, this.props.currUser.classes)} classes in common with you!</p>
+      </li>
+      ) : <p>NO CONNECTIONS FOUND</p>;
+
+      return ( 
+         <div>
+            <ul>
+               {userList}
+            </ul>
+            <Link to='/'>Go Back to Search</Link>
+         </div>
+      );
+   }
 }
  
 export default ResultsPage;
