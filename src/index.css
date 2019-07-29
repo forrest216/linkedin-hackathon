@@ -351,12 +351,8 @@ template {
 /*Global Styles*/
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url("bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-input {
+input, select {
   display: block;
   height: 3em;
   width: 100%;
@@ -365,7 +361,7 @@ input {
   border: 0;
   border-radius: 10px;
   background-color: #F3F7FF;
-  color: #818181;
+  color: #949393;
   font-size: 1em;
   outline: none;
 }
@@ -382,7 +378,6 @@ ul {
   padding: 0;
 }
 button {
-  opacity: 0.5;
   margin: 8% 0;
   padding: 2% 5%;
   border:none;
@@ -391,9 +386,6 @@ button {
   font-size: 1em;
   color: white;
   float: right;
-}
-button:hover {
-  opacity: 1;
 }
 /*Layout*/
 .flex-container {
@@ -404,12 +396,20 @@ button:hover {
   width: 50%;
   padding: 6%;
 }
+button:disabled {
+  opacity: 0.5;
+}
 .class-cols {
   height: 200px;
   padding-right: 0px;
   padding-left: 0px;
-  width: 103%;
+  width: 106%;
 }
+
+#majorBox {
+  width: 106%;
+}
+
 .class-col-l {
   padding: 10px 10px 2px 0px;
 }
@@ -429,6 +429,7 @@ button:hover {
 .form>li {
   margin: 8%;
 }
+
 /*Interactions*/
 .dropdown {
 /*    display: none;*/
@@ -453,4 +454,11 @@ button:hover {
 .inputFocus {
   background-color: white;
   box-shadow: 0px 8px 30px #CBD1F5;
+}
+
+.FilterStudentForm {
+  background-image: url("bg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

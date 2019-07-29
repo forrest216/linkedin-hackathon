@@ -11,7 +11,7 @@ class App extends Component {
   };
 
   updateResults = (results) => {
-    this.setState({ results: results.foundUsers, currUser: results.currUser });
+    this.setState({ results: results.foundUsers, currUser: results.currUser[0] });
   }
 
   render() {
