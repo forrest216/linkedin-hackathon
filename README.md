@@ -6,8 +6,8 @@ Designed using Adobe XD and Adobe Illustrator and built using React, Express, No
 
 #### Designers:
 
-- [Jessica Toyota] (https://www.linkedin.com/in/jessicatoyota/)
-- [Mahtab Namakian] (hhttps://www.linkedin.com/in/mahtab-namakian/)
+- [Jessica Toyota](https://www.linkedin.com/in/jessicatoyota/)
+- [Mahtab Namakian](https://www.linkedin.com/in/mahtab-namakian/)
 - [Rajat Bagga](http://rajatbagga.com/)
 
 
