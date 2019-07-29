@@ -71,6 +71,8 @@ class FilterStudentForm extends Component {
 									required
 								/>
 							</li>
+							<hr/>
+							<li><p className="label">Search Student Body:</p></li>
 							<li>
 								<label htmlFor="classYear">Class of</label>
 								<input 

@@ -368,10 +368,15 @@ input, select {
 p {
   font-size: 1.5em;
 }
-label {
+label, .label {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.label {
+  font-size: 1.15em;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -386,6 +391,12 @@ button {
   font-size: 1em;
   color: white;
   float: right;
+}
+hr {
+  margin: 4%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(80, 80, 80, 0), rgba(150, 150, 150, 0.75), rgba(80, 80, 80, 0));
 }
 /*Layout*/
 .flex-container {
