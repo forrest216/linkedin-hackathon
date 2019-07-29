@@ -403,6 +403,12 @@ hr {
   display: flex;
   height: 100vh;
 }
+.completed {
+  border: 2px solid #3973F5;
+}
+.not-completed {
+  border: 2px solid transparent;
+}
 .col-1-2 {
   width: 50%;
   padding: 6%;

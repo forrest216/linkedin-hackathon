@@ -46,7 +46,7 @@ class ResultsPage extends Component {
             <div className="details res-col-2-3">
                <div className="details-main">
                   <h3>{result.name}</h3>
-                  <h4>{this.commonClasses(result.classes, this.props.currUser.classes)} classes common with you</h4>
+                  <h4>{this.commonClasses(result.classes, this.props.currUser.classes)} class(es) common with you</h4>
                </div>
                <div className= "details-social">
                   <a href={`https://www.facebook.com/search/?q=${result.name}`} target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook"/></a>

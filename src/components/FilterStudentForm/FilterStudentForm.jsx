@@ -62,7 +62,8 @@ class FilterStudentForm extends Component {
 							<li>
 								<label htmlFor="emailBox">Your Student Email</label>
 								<input 
-									id="emailBox" 
+									id="emailBox"
+									className={this.state.email ? "completed" : "not-completed"} 
 									name="email" 
 									type="text" 
 									placeholder="example@cca.edu" 
@@ -79,6 +80,7 @@ class FilterStudentForm extends Component {
 									id="classYear"
 									type="number" 
 									placeholder="Year" 
+									className={this.state.classYear ? "completed" : "not-completed"}
 									value={this.state.classYear} 
 									name="classYear" 
 									onChange={this.handleChange} 
@@ -89,6 +91,7 @@ class FilterStudentForm extends Component {
 								<select 
 									id="majorBox" 
 									name="major" 
+									className={this.state.major ? "completed" : "not-completed"}
 									value={this.state.major}
 									onChange={this.handleChange} 
 									required>
@@ -102,6 +105,7 @@ class FilterStudentForm extends Component {
 										<select 
 											id="classBox1" 
 											name="class1"
+											className={this.state.class1 ? "completed" : "not-completed"}
 											value={this.state.class1}
 											onChange={this.handleChange}
 											required>
@@ -110,6 +114,7 @@ class FilterStudentForm extends Component {
 										<select 
 											id="classBox2" 
 											name="class2" 
+											className={this.state.class2 ? "completed" : "not-completed"}
 											value={this.state.class2}
 											onChange={this.handleChange}>
 											<option value="">---</option>
@@ -119,6 +124,7 @@ class FilterStudentForm extends Component {
 										<select 
 											id="classBox3" 
 											name="class3" 
+											className={this.state.class3 ? "completed" : "not-completed"}
 											value={this.state.class3}
 											onChange={this.handleChange}>
 											<option value="">---</option>
@@ -126,6 +132,7 @@ class FilterStudentForm extends Component {
 										<select 
 											id="classBox4" 
 											name="class4" 
+											className={this.state.class4 ? "completed" : "not-completed"}
 											value={this.state.class4}
 											onChange={this.handleChange}>
 											<option value="">---</option>
