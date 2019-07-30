@@ -1,0 +1,204 @@
+[{
+   "name": "Tjay Alvarado",
+   "email": "Tjay_Alvarado@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Political Science 101", "Biology 103", "Biology 101", "Electrical Engineering 101"]
+}, {
+   "name": "Daithi Hewitt",
+   "email": "Daithi_Hewitt@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Mathematics 103", "Biology 102", "Biology 102", "Mathematics 103"]
+}, {
+   "name": "Ceilan Jefferson",
+   "email": "Ceilan_Jefferson@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Political Science 102", "Biophysics 103", "Biology 103", "Electrical Engineering 101"]
+}, {
+   "name": "Albie Ramsey",
+   "email": "Albie_Ramsey@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biology 102", "Biophysics 101", "Mathematics 103", "Biophysics 101"]
+}, {
+   "name": "Orson Strong",
+   "email": "Orson_Strong@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Statistics 101", "Statistics 101", "Statistics 102", "Political Science 101"]
+}, {
+   "name": "Kyrran Bishop",
+   "email": "Kyrran_Bishop@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biology 102", "Statistics 102", "Biology 103", "Biophysics 101"]
+}, {
+   "name": "Prithvi Gregory",
+   "email": "Prithvi_Gregory@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 103", "Political Science 102", "Mathematics 103", "Statistics 102"]
+}, {
+   "name": "Daanyaal Beck",
+   "email": "Daanyaal_Beck@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biology 101", "Biology 102", "Statistics 102", "Biology 101"]
+}, {
+   "name": "Zacharias Bishop",
+   "email": "Zacharias_Bishop@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Statistics 101", "Statistics 101", "Biology 102", "Biology 101"]
+}, {
+   "name": "Jayhan Mullen",
+   "email": "Jayhan_Mullen@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Electrical Engineering 101", "Biology 103", "Biophysics 103", "Statistics 101"]
+}, {
+   "name": "Surien Cochran",
+   "email": "Surien_Cochran@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Political Science 102", "Biology 102", "Mathematics 103", "Electrical Engineering 101"]
+}, {
+   "name": "Maaz Lamb",
+   "email": "Maaz_Lamb@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Electrical Engineering 101", "Mathematics 103", "Statistics 101", "Biology 102"]
+}, {
+   "name": "Mael Conner",
+   "email": "Mael_Conner@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Electrical Engineering 101", "Political Science 102", "Political Science 102", "Statistics 101"]
+}, {
+   "name": "Isher Kaufman",
+   "email": "Isher_Kaufman@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 102", "Biology 103", "Biophysics 101", "Statistics 102"]
+}, {
+   "name": "Teagan Moon",
+   "email": "Teagan_Moon@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Statistics 102", "Statistics 101", "Statistics 101", "Biophysics 103"]
+}, {
+   "name": "Gregor Buckley",
+   "email": "Gregor_Buckley@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biology 101", "Biology 101", "Biology 103", "Biology 102"]
+}, {
+   "name": "Ridley Branch",
+   "email": "Ridley_Branch@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Statistics 101", "Statistics 102", "Biology 103", "Biology 101"]
+}, {
+   "name": "Macaulay Mcconnell",
+   "email": "Macaulay_Mcconnell@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Statistics 101", "Biophysics 101", "Biology 103", "Biology 102"]
+}, {
+   "name": "Ilyas Nixon",
+   "email": "Ilyas_Nixon@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Electrical Engineering 101", "Political Science 102", "Political Science 102", "Mathematics 103"]
+}, {
+   "name": "Todd Levine",
+   "email": "Todd_Levine@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Political Science 101", "Biology 102", "Biology 103", "Biology 102"]
+}, {
+   "name": "Willum Ross",
+   "email": "Willum_Ross@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 102", "Statistics 101", "Electrical Engineering 101", "Electrical Engineering 101"]
+}, {
+   "name": "Lancelot Beck",
+   "email": "Lancelot_Beck@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biology 102", "Biophysics 103", "Statistics 102", "Biology 102"]
+}, {
+   "name": "Brydon Figueroa",
+   "email": "Brydon_Figueroa@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 103", "Electrical Engineering 101", "Biophysics 103", "Political Science 101"]
+}, {
+   "name": "Aria Watson",
+   "email": "Aria_Watson@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 103", "Mathematics 103", "Statistics 101", "Biology 101"]
+}, {
+   "name": "Torran Goff",
+   "email": "Torran_Goff@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 103", "Biophysics 103", "Mathematics 103", "Political Science 102"]
+}, {
+   "name": "Salter Saunders",
+   "email": "Salter_Saunders@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Political Science 102", "Biophysics 102", "Biophysics 103", "Biophysics 101"]
+}, {
+   "name": "Ashtyn Abbott",
+   "email": "Ashtyn_Abbott@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Biophysics 102", "Statistics 101", "Statistics 101", "Biophysics 102"]
+}, {
+   "name": "Shae Figueroa",
+   "email": "Shae_Figueroa@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Statistics 101", "Electrical Engineering 101", "Biology 103", "Biophysics 101"]
+}, {
+   "name": "Sharland Bradley",
+   "email": "Sharland_Bradley@email.com",
+   "college": "CCA",
+   "major": "Statistics",
+   "classYear": 2021,
+   "classes": ["Political Science 101", "Electrical Engineering 101", "Political Science 101", "Biophysics 101"]
+}]
